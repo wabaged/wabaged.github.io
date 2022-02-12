@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 55px;
+  font-weight: 500;
+}
+
+p, ul, h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  margin: 24px;
+}
+
+.under-h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header-text {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0%;
+  right: 50%;
+  transform: translate(50%, 0%);
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  background: grey;
+}
+
+#anakin {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  color: #222;
+  font-size: 75px;
+}
+
+#header-title {
+  margin: 0;
+  margin-bottom: -15px;
+  padding: 0;
+  color: #222;
+  font-size: 38px;
+}
+
+.main,
+.footer,
+.header{
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote {
+  background: #454445;
+  padding-left: 10px;
+  padding-right: 40px;
+  padding-top: 0px;
+  margin: 0px;
+  padding-bottom: 40px;
+}
+
+.text,
+.quote,
+.footer-text {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+ul#ul-first {
+  list-style-type: square;
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+
+ul {
+  
+}
+
+li {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  padding: 24px 24px 24px 0;
+  margin: 24px 24px 24px 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+
+.under-h3 {
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+blockquote::before {
+  content: '”';
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 110px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0px;
+}
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-text {
+  border-top: 4px solid black;
+  margin-top: 24px;
+  padding-top: 12px;
+}
